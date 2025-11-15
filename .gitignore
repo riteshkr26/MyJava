@@ -1,0 +1,21 @@
+# Ignore Java compiled class files
+*.class
+**/*.class
+
+# Common build folders / IDE
+bin/
+out/
+target/
+build/
+
+# IntelliJ / VS Code
+/.idea/
+/*.iml
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keep these so repo isn't empty
+!.gitignore
