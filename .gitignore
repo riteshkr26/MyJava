@@ -1,21 +1,12 @@
-# Ignore Java compiled class files
-*.class
-**/*.class
+# Ignore everything
+*
 
-# Common build folders / IDE
-bin/
-out/
-target/
-build/
+# Allow folders
+!*/
 
-# IntelliJ / VS Code
-/.idea/
-/*.iml
-.vscode/
+# Allow only Java and text files
+!*.java
+!*.txt
 
-# OS files
-.DS_Store
-Thumbs.db
-
-# Keep these so repo isn't empty
+# Always allow gitignore
 !.gitignore
